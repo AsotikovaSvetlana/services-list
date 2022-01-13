@@ -1,14 +1,27 @@
-API
-===
+# Services List
+
 [![Build status](https://ci.appveyor.com/api/projects/status/q877vjsyhyqk1iuq?svg=true)](https://ci.appveyor.com/project/AsotikovaSvetlana/services-list)
 
-https://asotikovasvetlana.github.io/services-list/
+### [Demo](https://asotikovasvetlana.github.io/services-list/)
 
-Redux, Redux Thunk, React Router, Fetch API.
 
-### Services List
+**Environment:** Redux, Redux Thunk, React Router, Fetch API, JavaScript, HTML5, CSS3.
 
-При переходе на главную страницу пользователь автоматически перенаправляется на адрес '/services', на котором загружается список услуг (GET http://localhost:7070/api/services).
+## Старт
+
+Cклонируйте репозиторий и установите зависимости
+```
+npm install
+```
+
+Запустите проект
+```
+npm start
+```
+
+## Описание
+
+При переходе на главную страницу пользователь автоматически перенаправляется на адрес '/services', на котором загружается список услуг (GET /api/services).
 
 При загрузке данных (GET) отображается спиннер (лоадер):
 
@@ -32,7 +45,7 @@ Redux, Redux Thunk, React Router, Fetch API.
 ]
 ```
 
-При нажатии на кнопку удалить происходит удаление записи с последующей загрузкой всего списка (DELETE http://localhost:7070/api/serviced/:id, где id - id сервиса).
+При нажатии на кнопку удалить происходит удаление записи с последующей загрузкой всего списка (DELETE /api/serviced/:id, где id - id сервиса).
 
 При нажатии на кнопку редактировать происходит переход по адресу: '/services/:id`, где id - это id сервиса.
 

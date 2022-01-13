@@ -306,4 +306,6 @@
   transform-origin: 0 0; /* see note above */
 }
 
-.ldio-s8jtr5dcbdl div { box-sizing: content-box; }
+.ldio-s8jtr5dcbdl div { 
+  box-sizing: content-box; 
+}

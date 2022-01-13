@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename="/services">
+    <BrowserRouter basename="/services-list">
       <App />
     </BrowserRouter>
   </Provider>,

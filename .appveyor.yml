@@ -1,16 +1,21 @@
 image: Ubuntu
+
 stack: node 10
+
 branches:
   only:
     - master
+
 cache: node_modules
+
 install:
   - npm install
+
 build: off
+
 build_script:
   - npm run build
-test_script:
-  - npm test
+
 deploy_script:
   - git config --global credential.helper store
   - git config --global user.name AppVeyor

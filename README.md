@@ -4,6 +4,7 @@
 
 ### [Demo](https://asotikovasvetlana.github.io/services-list/)
 
+CRUD-приложение на React. Состояние хранится в Redux Store, для взаимодействия с HTTP используется Fetch и Redux Thunk. Для демонстрации процесса загрузки и обработки ошибок на сервере выполняется генерация задержки/ошибки.
 
 **Environment:** Redux, Redux Thunk, React Router, Fetch API, JavaScript, HTML5, CSS3.
 

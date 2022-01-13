@@ -13,14 +13,16 @@
 }
 
 .Service-add-form {
+  width: 100%;
   position: relative;
   margin-bottom: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 .Service-add-input {
+  width: 33%;
   padding: 10px 15px;
   border-radius: 5px;
   border: 1px solid lightgrey;
@@ -28,13 +30,14 @@
 }
 
 .Service-add-btn, .Service-detail-btn {
-  width: 110px;
+  width: 20%;
   padding: 10px 15px;
   border-radius: 10px;
   background-color: rgb(236, 71, 71);
   border: 1px solid transparent;
   font-size: 14px;
   font-weight: 600;
+  text-align: center;
   color: white;
   cursor: pointer;
 }
